@@ -17,13 +17,13 @@ Algoritmo CambioDeMoneda
 				SiNo Si moneda_destino = "AUD" Entonces
 						resultado <- cantidad * 1.50
 					SiNo
-						Escribir "Moneda destino no válida."
+						Escribir "Moneda destino no vÃ¡lida."
 					FinSi
 				FinSi
 			FinSi
 		FinSi
 	SiNo
-		Escribir "Moneda fuente no válida."
+		Escribir "Moneda fuente no vÃ¡lida."
     FinSi
     Si moneda_fuente = "EUR" Entonces
 		Si moneda_destino = "USD" Entonces
@@ -35,7 +35,7 @@ Algoritmo CambioDeMoneda
 				SiNo Si moneda_destino = "AUD" Entonces
 						resultado <- cantidad * 1.61
 					SiNo
-						Escribir "Moneda destino no válida."
+						Escribir "Moneda destino no vÃ¡lida."
 					FinSi
 				FinSi
 			FinSi
@@ -51,7 +51,7 @@ Algoritmo CambioDeMoneda
 				SiNo Si moneda_destino = "AUD" Entonces
 						resultado <- cantidad * 1.90
 					SiNo
-						Escribir "Moneda destino no válida."
+						Escribir "Moneda destino no vÃ¡lida."
 					FinSi
 				FinSi
 			FinSi
@@ -67,7 +67,7 @@ Algoritmo CambioDeMoneda
 				SiNo Si moneda_destino = "AUD" Entonces
 						resultado <- cantidad * 1
 					SiNo
-						Escribir "Moneda destino no válida."
+						Escribir "Moneda destino no vÃ¡lida."
 					FinSi
 				FinSi
 			FinSi
